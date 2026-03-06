@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD131 | Personal Home Page</title>
+    <meta name="author" content="Luke Hill">
+    <meta name="description" content="Intro to the game Fire Emblem Engage">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="java/intro.js" defer></script>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/fire_emblem_logo.webp" alt="Fire Ebmlem Logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="character.html">Characters</a>
+                <a href="emblem.html">Emblems </a>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+            <h1 class="home-title">Fire Emblem Engage</h1>
+        </header>
+        <main class="home-grid">
+            <p>
+                This home page will explain the story's general plot with minimal spoilers, along with explanations of the new mechanics, the gimmicks added to this game that probably will not make it to others such as Emblem and Bond rings, and the mechanics they are bringing back from past titles such as the build and weight mechanics.
+            </p>
+            <button class="accordion">Plot of the game</button>
+            <div class="panel">
+                <p>
+                    Fire Emblem Engage is a tactical role-playing game set on the continent of Elyos, a land divided into four kingdoms and guarded by divine and demonic forces. The story follows Alear, a Divine Dragon who wakes up after a thousand-year slumber with little memory of their past. Alear learns that the Fell Dragon Sombron, who once plunged the world into chaos, is on the verge of returning. Alear is tasked with gathering Emblem Rings, which summon legendary heroes from other Fire Emblem games, to stop Sombron from unleashing destruction again.
+                    Throughout the game, Alear and their allies travel across Elyos, forming alliances with the different kingdoms to gather all 12 Emblem Rings and gain the power to oppose Sombron. They face powerful enemies called the Corrupted, creatures raised by Sombron’s dark magic, as well as other followers of the Fell Dragon. Along the way, Alear unlocks fragments of their past and learns about their own connection to Sombron.
+                    The game combines intense, turn-based battles with social and strategy elements, as players build relationships between characters and use tactical positioning and powerful Emblem skills. With each battle, Alear grows stronger, collecting memories and forging bonds with allies as they march toward the final confrontation with Sombron.                    
+                </p>
+            </div>
+            <img class="home-pic" src="images/elyos.jpg" alt="Map of the continent">
+
+            <button class="accordion">New Mechanics</button>
+            <div class="panel">
+                <h2>Emblem Rings and Engage Mode</h2>
+                <p>
+                    <b>Emblem Rings:</b> Emblem Rings are central to the Engage storyline and gameplay. 
+                    Each ring contains the spirit of a classic Fire Emblem hero, called an Emblem, who grants the equipped character powerful abilities and stat boosts.
+                </p>
+                <hr>
+                <p>
+                    <b>Engage Mode:</b> By equipping a character with an Emblem Ring, players can "Engage" to merge the character with the Emblem hero for a few turns. 
+                    In Engage Mode, the character gains enhanced stats and can use powerful Engage Skills and Engage Attacks unique to each Emblem.
+                </p>
+                <hr>
+                <p>
+                    <b>Bond Levels:</b> Characters can build Bond Levels with Emblems, unlocking new skills and additional benefits over time, providing more customization and progression options.
+                </p>
+                <h2>Breaking</h2>
+                <p>
+                    <b>Weapon Triangle:</b> Fire Emblem Engage revives the weapon triangle, where swords beat axes, axes beat lances, and lances beat swords. 
+                    Mages, archers, and other classes also have their strengths and weaknesses.
+                </p>
+                <hr>
+                <p>
+                    <b>Break Status:</b> When a character wins a weapon triangle matchup, they can “break” the enemy, which prevents the broken enemy from counterattacking for one turn. 
+                    This mechanic allows for more strategic planning and positioning, as players can use the weapon triangle to temporarily disable dangerous foes.
+                </p>
+                <hr>
+                <h2>The Somniel</h2>
+                <p><b>Home Base and Activities:</b> The Somniel is a floating fortress that serves as your base. Similar to Three Houses’ monastery or the Castle in Fates, it allows players to manage their army, engage in side activities, and build relationships with other characters.</p>
+                <hr>
+                <h2>Engage Attacks and Skills</h2>
+                <p><b>Engage Attacks:</b> These are powerful, limited-use moves that characters can only access while Engaged with an Emblem. Each Emblem has a unique Engage Attack, often with effects like high-damage multi-hits, crowd control, or healing.</p>
+                <hr>
+                <p><b>Engage Skills:</b> Characters also gain access to unique Engage Skills while Engaged. These skills vary based on the Emblem and offer advantages that enhance a character’s role in battle, such as increased evasion, additional weapon proficiency, or healing abilities.</p>
+                <hr>
+                <h2>Revival Stones</h2>
+                <p><b>Boss Buff:</b> Revival Stones are a new addition that makes certain boss enemies tougher to defeat. When a boss with a Revival Stone is defeated, they’ll revive with full health for another round.</p>
+                <hr>
+                <p><b>Strategic Layer:</b> Players need to carefully plan to take down bosses with Revival Stones, especially on harder difficulties. This adds a layer of challenge, requiring the player to manage resources and time Engage attacks strategically.</p>
+                <hr>
+                <h2>Emblem Bracelets</h2>
+                <p><b>DLC Content:</b> Emblem Bracelets were added through downloadable content (DLC), expanding the roster of Emblems with additional heroes from past games, such as the trio from Fire Emblem: Three Houses (Edelgard, Dimitri, and Claude) or the dou from Fire Emblem: Awakening (Chrom & Robin).</p>
+                <hr>
+                <p><b>Multi-Hero Skills:</b> Certain bracelets allow players to access multiple Emblem heroes at once, offering new skill combinations and Engage Attacks that aren’t available with single Emblem Rings.</p>
+                <hr>
+                <h2>Chain Guard</h2>
+                <p><b>Chain Guard:</b> Qi-Adept-type units can protect adjacent allies from damage with Chain Guard, absorbing a hit to shield allies. This action requires full HP, so careful positioning and timing are key to using Chain Guards effectively.</p>
+                <hr>
+            </div>
+            <img class="home-pic" src="images/triangle.png" alt="Weapons Triangle">
+
+            <button class="accordion">Returning Mechanics</button>
+            <div class="panel">
+                <h2>Weight</h2>
+                <p><b>Weapon Weight:</b> Every weapon in Fire Emblem Engage has a Weight value, which represents how heavy it is for a character to wield. Heavier weapons are generally more powerful but can slow down the character wielding them.</p>
+                <hr>
+                <p><b>Impact on Speed:</b> Weapon Weight affects a character's attack speed (AS). If a character's weapon is too heavy, it can reduce their AS, potentially leaving them vulnerable to double attacks from faster opponents or reducing their chances of making follow-up attacks.</p>
+                <hr>
+                <h2>Build</h2>
+                <p><b>Character’s Build Stat:</b> Each character has a Build (Bld) stat that represents their physical strength and ability to handle heavy weapons. The higher a character's Build, the better they can manage heavier weapons without being penalized in speed.</p>
+                <hr>
+                <p><b>Offsetting Weight:</b> The Build stat counteracts a weapon's Weight. If a character’s Build is equal to or greater than the Weight of the weapon they’re wielding, there is no penalty to their AS. But if the weapon’s Weight exceeds the character’s Build, they’ll suffer a speed penalty.</p>
+                <hr>
+                <p><b>The formula for Attack Speed:</b> The basic formula is: Attack Speed (AS)=Base Speed−(Weapon Weight−Build)</p>
+                <hr>
+                <h2>Chain Attacks</h2>
+                <p><b>Chain Attacks:</b> Some units, particularly backup units, can perform Chain Attacks when positioned near an ally attacking an enemy. Chain Attacks add additional damage, helping take down tougher enemies more efficiently.</p>
+                <hr>
+            </div>
+            
+        </main>
+        <footer>
+            <p>Fire Emblem Engage &copy; 2025 - Luke Hill</p>
+            <p><a href="site-plan.html">Site Plan</a></p>
+            <p><a href="contactus.html">Contact Us</a></p>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

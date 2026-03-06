@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rock+Salt&display=swap');
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color:#94d2bd ;
+  color:#005f73 ;
+  cursor: pointer;
+  padding: 18px;
+  width: 50%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-size: 25px;
+}
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #0A9396;
+}
+  /* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: #001219;
+  display: none;
+  overflow: hidden;
+}
+nav a{
+  text-align: center;
+  color: #0A9396;
+  text-decoration: none;
+  font-size: 35px;
+  padding: 35px;
+}
+nav a:hover{
+  background-color: #ee9b00;
+  color: #ae2012;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+}
+h1{
+  color: #005f73;
+  font-size: 2em;
+  text-align: center;
+  font-family: "Playfair Display";
+}
+body {
+  font-family: "Agdasima", "Rock Salt", sans-serif;
+  background-color: #001219;
+  margin: 0;
+  padding: 0;
+}
+p {
+  max-width: 600px;
+  text-align: center;
+  font-size: 25px;
+  color: #e9d8a6;
+}
+h2{
+  max-width: 600px;
+  text-align: center;
+  font-size: 20px;
+  color: #ca6702;
+}
+main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+header{
+  display: grid;
+  align-items: center;
+  grid-template-columns: 200px 1fr;
+}
+.logo{
+  width: 100%
+}
+.home-pic{
+  width: 20%;
+}
+footer{
+  color: #0A9396;
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer a{
+  text-decoration: none;
+  color: #0A9396;
+}
+footer a:hover{
+  color: #ae2012;
+}
+footer p {
+  font-size: 1.2em;
+} 
+footer p a:hover {
+  text-decoration: underline;
+}
+footer .social img{
+  padding-top: 15px;
+}
